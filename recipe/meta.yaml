@@ -1,5 +1,5 @@
 {% set name = "gomodifytags" %}
-{% set version = "1.16.0" %}
+{% set version = "1.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fatih/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 276526aede6e42c3d540cdaa5fe67cbd276837acfea5d9f5ca19c3a8d16a82ed
+  sha256: a490786d80c962dc946b8f9804ffec596c1087dbf91b122b9b5903c03b6da6b9
 
 build:
   number: 0
